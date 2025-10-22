@@ -1,0 +1,12 @@
+def carre(nombre):
+    chiffre = nombre **2
+    return chiffre 
+
+print(carre(1000000000))
+
+def afficher_info(nom,age=30,ville="Paris"):
+    print(f"{nom}, {age} ans, habite a {ville}")
+
+afficher_info("Alice")
+afficher_info("Bob",25)
+afficher_info("Charlie",ville="Lyon")
